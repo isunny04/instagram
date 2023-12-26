@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:hotpink;
+    padding: 20px 30px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:aqua;
+    padding: 20px;
+    margin-top: 20px;
+} 
+
+body{
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#left,#cent,#right{
+    display: flex;
+    gap: 10px;
+}
+#nav{
+    
+    display: flex;
+    justify-content:space-between;
+    background-color: chartreuse;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.abc{
+    display: flex;
+    gap: 20px;
+}

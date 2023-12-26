@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+#one{
+    display: flex;
+    gap: 20px;
+}

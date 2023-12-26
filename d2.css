@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+nav{
+    background-color: orange;
+}
+#one{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+    
+}
+#mobilesub{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    color:brown;
+    
+}
+#v:hover #mobilesub{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 20px;
+ 
+    
+}

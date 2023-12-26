@@ -1,0 +1,44 @@
+/* img{
+    margin-top: 20px; 
+    position: relative; 
+     position: absolute;
+    position: sticky;
+    top: 0px;
+    left: 0px;    
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+}
+#cont{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+    padding: 0;
+
+        
+}
+
+a{
+text-decoration: none;
+color: rgb(42, 133, 194);
+padding: 20px;
+display: block;
+}
+a:hover{
+   background-color: white;
+   color: orange;
+}
+#menu{
+   list-style-type: none;
+   
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
